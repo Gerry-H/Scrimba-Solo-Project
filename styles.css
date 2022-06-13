@@ -1,0 +1,114 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+   
+    
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image:url("images/torshov.jpg");
+    background-size:cover;
+    width:720px;
+    height:343px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#subhead {
+    width:355px;
+    height: 39px;
+    margin: 0 auto;
+    font-size:18px;
+}
+
+#head {
+    margin-top:130px;
+    background: #1D3557;
+    border-radius:5px;
+    
+}
+
+h2{
+    background:#457B9D;
+    border-radius:7px;
+}
+
+#container {
+    background: #F1FAEE;
+    width:720px;
+    color:white;
+    text-shadow:0px 0px 2px black;
+}
+
+#activities {
+    color:black;
+}
+
+#items {
+    display:flex;
+    justify-content: space-around;
+}
+
+.item {
+   font-size:16px;
+}
+
+h4 {
+    font-weight:700;
+    width:200px;
+    
+}
+
+#guide {
+    display:flex;
+    border: 3px solid #457B9D;
+    border-radius: 10px;
+    background: lightblue;
+    width:360px;
+    height:250px;
+    margin:20px auto;
+    box-shadow: 0px 6px 0px #1D3557;
+    
+}
+    
+
+#herald-img {
+    position: relative;
+    width: 180px;
+    left: 5px;
+    top: 50px;
+ }
+
+#guide-info{
+    padding:35px 30px 12px 22px;
+}   
+
+p {
+    font-style:italic;
+    font-size:16;
+}
+
+#foot {
+    font-size:24px;
+    color:#1D3557;
+}
+#outer {
+    background:white;
+    padding: 5px;
+}
